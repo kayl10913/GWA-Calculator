@@ -1,0 +1,143 @@
+body {
+    background: #fff;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #111;
+}
+.gwa-card {
+    background: #fff;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    box-shadow: 0 4px 24px rgba(10,17,40,0.08);
+    color: #111;
+}
+.title-minimal {
+    color: #111;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.banner-minimal {
+    background: #0a1128;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.minimal-btn {
+    background: #0a1128;
+    color: #fff;
+    border: none;
+    border-radius: 0.75rem;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.minimal-btn:hover, .minimal-btn:focus {
+    background: #111;
+    color: #fff;
+}
+.subject-label {
+    color: #111;
+    font-weight: bold;
+}
+.subject-row {
+    border-radius: 1rem;
+    background: #fff;
+    padding: 1rem 0.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    border: 1px solid #e3e6ed;
+}
+.delete-btn {
+    background: #0a1128;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+}
+.delete-btn:hover {
+    background: #111;
+    color: #fff;
+}
+input[type="number"], input[type="text"] {
+    border-radius: 0.75rem !important;
+    border: 1px solid #e3e6ed;
+    color: #111;
+    background: #fff;
+}
+input[type="number"]::placeholder, input[type="text"]::placeholder {
+    color: #bbb;
+}
+#result {
+    font-size: 1.2rem;
+    color: #0a1128;
+}
+.main-header {
+    width: 100%;
+    background: #0a1128;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(10,17,40,0.08);
+}
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+}
+.github-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 2px;
+    margin-right: 10px;
+}
+.main-footer {
+    background: #0a1128;
+    color: #fff;
+    padding: 1rem 0 0.5rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+.social-icon {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+.social-icon:hover {
+    color: #4267B2;
+}
+body {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+@media (max-width: 600px) {
+  .main-header, .main-footer {
+    padding: 0.5rem 0;
+  }
+  .header-title {
+    font-size: 1.1rem;
+  }
+  .github-logo {
+    width: 24px;
+    height: 24px;
+  }
+  .main-footer .social-icon {
+    font-size: 1.2rem;
+    margin: 0 6px;
+  }
+}
