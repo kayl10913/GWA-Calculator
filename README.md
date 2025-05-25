@@ -25,6 +25,3 @@ A simple web application to calculate your General Weighted Average (GWA) for su
 
 ## Author
 - [kayl10913](https://github.com/kayl10913)
-
-## License
-This project is open source and available under the [MIT License](LICENSE).
